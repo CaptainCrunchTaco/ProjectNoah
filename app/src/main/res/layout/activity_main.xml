@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/topGraphic" />
+            android:src="@drawable/topgraphic" />
 
         <TextView
             android:id="@+id/top_text"
@@ -36,6 +36,7 @@
         android:padding="5dp">
 
         <TableRow
+            android:onClick="handleFacebook"
             android:paddingTop="18dp"
             android:paddingBottom="18dp"
             android:baselineAligned="false">
@@ -68,6 +69,7 @@
         </TableRow>
 
         <TableRow
+
             android:layout_height="1dp"
             android:background="#000000"
             android:layout_width="match_parent"
@@ -78,6 +80,8 @@
                 android:layout_height="1dp" />
         </TableRow>
         <TableRow
+            android:onClick="handleEmail"
+
             android:paddingTop="18dp"
             android:paddingBottom="18dp">
 
@@ -120,6 +124,8 @@
         </TableRow>
 
         <TableRow
+            android:onClick="handleAccount"
+
             android:paddingTop="18dp"
             android:paddingBottom="18dp">
 
@@ -127,7 +133,7 @@
                 android:id="@+id/img3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/midGraphic" />
+                android:src="@drawable/midgraphic" />
 
             <TextView
                 android:id="@+id/midText3"
@@ -169,8 +175,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="-16dp"
-        android:src="@drawable/BottomGraphic" />
+        android:layout_marginBottom="-20dp"
+        android:src="@drawable/bottomgraphic" />
 
 
     <TextView
@@ -183,5 +189,5 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="5dp"
-        android:id="@+id/" />
+      />
 </RelativeLayout>
